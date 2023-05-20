@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>FreetimeAdviser</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-select.min.css">
+</head>
+<body>
+	<script>
+		var name = prompt("Hey, du da. Wie heißt du?", "Name");
+	</script>
+	<h1>Hi,  
+		<s> <script type="text/javascript">
+			document.write(name)
+		  </script> ✌️!
+		  </s>
+	</h1>	
+
+	<p> Was soll Dir heute vorgeschlagen werden?</p>
+	
+
+	<div class="selectpicker">
+	<label for="budget">Wie hoch ist dein Budget 💰?</label>
+	<p></p>
+
+		<select id="budget" class="selectpicker">
+		<option value="niedrig">niedrig</option>
+		<option value="mittel">mittel</option>
+		<option value="hoch">hoch</option>
+	</select>
+</div>
+<br>
+
+	<div class="selectpicker">
+	<label for="wetter">Wie ist gerade das Wetter ☂?</label>
+	<p></p>
+	<select  id="wetter" class="selectpicker">
+		<option value="gut">gut</option>
+		<option value="schlecht">schlecht</option>
+	</select>
+</div>
+	<br>
+
+	<div class="selectpicker">
+	<label for="freunde">Sind Freunde mit dabei 🙋‍♂️? </label>	
+	<p></p>
+
+		<select id="freunde" class="selectpicker">
+		<option value="ja">ja</option>
+		<option value="nein">nein</option>
+	</select>	
+</div>
+
+	<br>
+	<p></p>
+	<button type="button" onclick="berechneWert()" class="btn btn-primary">Schlag mir was vor!</button>
+	<br>
+	<p></p>
+	<h4> Wie wäre es mit </h4> 
+	<h3 id="wert"></h3>
+	<script src="script.js"></script>
+	<script src="js/script.js"></script>
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-select.min.js"></script>
+
+		
+</body>
+</html>
+

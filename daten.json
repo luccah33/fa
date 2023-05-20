@@ -1,0 +1,37 @@
+{
+  "niedrig": {
+   "gut":{
+     "ja": ["Picknick im Park mit Blick auf die Landschaft", "Frisbee oder Fußball spielen", "Sightseeing in einer anderen Stadt mit deinem Studiticket machen"],
+     "nein": ["Spaziergang in einm Museum mit Audioguide", "Musik hören oder einen Film ansehen"]
+   },
+
+   "schlecht":{
+     "ja": ["Spieleabend mit Freunden zu Hause", "Zusammen Kochen und Essen", "Pijamaparty und einen Horrofilm schauen"],
+     "nein": ["Besuch im örtlichen Museum", "Picknick im Freien", "Meditieren (Mal zur Ruhe kommen ist auch gut :)"  ]
+   }
+  },
+
+
+  "mittel": {
+    "gut":{
+      "ja": ["Laser Tag spielen mit Freunden", "In den Club gehen", "Einen Kopf Rauchen und einen Cay trinken"],
+      "nein": ["Ein neues Hobby wie Fotografieren, DJen oder Zeichnen ausprobieren", "Etwas leckeres Kochen oder Backen", "Trainieren gehen"]
+     },
+
+     "schlecht":{
+       "ja": ["Filmabend mit Freunden zu Hause", "Gemeinsames Kochen und Essen", "Einen Wasserpark mit Freunden besuchen"],
+       "nein": ["Indoor Trampolin Park besuchen", "Ein interessantes Buch kaufen und lesen", "Zu deinem nächstgelegenen Döner vorbeigehen und einen Döner und eine Fanta Exotic holen"]
+     }
+  },
+  "hoch": {
+    "gut":{
+      "ja": ["Heißluftballonfahrt mit Freunden", "Bungee Jumping mit Freunden", "Eine mehrtätige Radfahrt mit Freunden organiesieren"],
+      "nein": ["Shoppen gehen", "Eine Oper besuchen", "Einen Spiel kaufen"]
+     },
+
+     "schlecht":{
+       "ja": ["Teuer essen gehen mit Freunden", "Paintball spielen mit Freunden", "Kart fahren gehen"],
+       "nein": ["Shoppen gehen", "Kaufe einen Digitalen Kurs für ein Interessantes Thea (Kochen, Musik spielen)"]
+     }
+  }
+}
